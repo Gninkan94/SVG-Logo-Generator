@@ -8,11 +8,11 @@ N/A
 ## license 
 MIT
 ## Screenshoot of the logo generated.
-[! text here](./images/Screen%20Shot%202023-07-13%20at%2012.03.27%20PM.png)
-[! screenshot](./images/Screen%20Shot%202023-07-13%20at%2012.03.42%20PM.png)
-[! screenshoot](./images/Screen%20Shot%202023-07-13%20at%2012.03.58%20PM.png)
-[! screenshoot](./images/Screen%20Shot%202023-07-13%20at%2012.04.11%20PM.png)
-[! jest test](./images/Screen%20Shot%202023-07-13%20at%2012.07.16%20PM.png)
+![ alt text](images/Screen%20Shot%202023-07-13%20at%2012.03.27%20PM.png)
+![alt text](images/Screen%20Shot%202023-07-13%20at%2012.03.42%20PM.png)
+![alt text](images/Screen%20Shot%202023-07-13%20at%2012.03.58%20PM.png)
+![alt text](images/Screen%20Shot%202023-07-13%20at%2012.04.11%20PM.png)
+![alt text](images/Screen%20Shot%202023-07-13%20at%2012.07.16%20PM.png)
 
 ## link of the walkthrough Video
 
