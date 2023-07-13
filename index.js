@@ -1,8 +1,9 @@
+//  This imports the fs, inquirer, Circle, Square, and Triangle modules.
 const fs = require('fs')
 const inquirer = require("inquirer");
 const {Circle, Square, Triangle} = require("./lib/shapes");
-//  This imports the fs, inquirer, Circle, Square, and Triangle modules.
-// Lets defines a Svg class that will have a constructor with three methods for rendering and setting the text and shape elements in the SVG string.
+
+// Lets defines a Svg class that will have a constructor with three methods for rendering settings of  the text and shape elements.
 
 class Svg{
     constructor(){
@@ -28,22 +29,22 @@ const questions = [
     {
         type: "input",
         name: "text",
-        message: "TEXT: Enter up to (3) Characters:",
+        message: "Please Enter up to (3) Characters of the loge TEXT!",
     },
     {
         type: "input",
         name: "text-color",
-        message: "TEXT COLOR: Enter a color keyword (OR a hexadecimal number):",
+        message: "Please enter the TEXT COLOR(OR a hexadecimal number):",
     },
     {
         type: "input",
         name: "shape",
-        message: "SHAPE COLOR: Enter a color keyword (OR a hexadecimal number):",
+        message: "Please enter the SHAPE COLOR (OR a hexadecimal number):",
     },
     {
         type: "list",
         name: "pixel-image",
-        message: "Choose which Pixel Image you would like?",
+        message: "Please select one pixel image you'd like?",
         choices: ["Circle", "Square", "Triangle"],
     },
 ];
@@ -105,13 +106,11 @@ async function init() {
 		console.log("Invalid shape!");
 	}
 	user_shape.setColor(user_shape_color);
-
 	// This will Create a new Svg logo and add the shape and text elements to it
 	var svg = new Svg();
 	svg.setTextElement(user_text, user_font_color);
 	svg.setShapeElement(user_shape);
 	svgString = svg.render();
-	
 	// this will printout the shape of the  log
 	console.log("Display shape:\n\n" + svgString);
 	console.log("Shape generating has been complete!");
